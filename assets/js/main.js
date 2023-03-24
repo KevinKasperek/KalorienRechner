@@ -29,7 +29,7 @@ const showGrundumsatz = () => {
         gesamtUmsatz = grundUmsatz * activityLevel;
         outputGrundumsatz.innerHTML = grundUmsatz.toFixed(0);
         resultGesamtumsatz.innerHTML = gesamtUmsatz.toFixed(0);
-        outputGrundumsatz_kJ.innerHTML = (grundUmsatz * 4.19).toFixed(0).toLocaleString();
+        outputGrundumsatz_kJ.innerHTML = (grundUmsatz * 4.19).toFixed(0);
         outputGesamtumsatz_kJ.innerHTML = (gesamtUmsatz * 4.19).toFixed(0);
     }
 }
